@@ -1,3 +1,4 @@
 /dodgeball/dodgeball-backups/
-*.bak/
-*.kicad_sch-bak/
+*.bak
+*.kicad_sch-bak
+*.lck

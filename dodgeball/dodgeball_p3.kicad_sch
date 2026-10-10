@@ -10028,26 +10028,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 57.15) (xy 50.8 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da676ba-2fb2-48ed-bdde-b846c0de1934")
-	)
-	(wire
-		(pts
-			(xy 46.99 49.53) (xy 50.8 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fc7b87b-facc-40da-8ce6-264d1294e43a")
-	)
-	(wire
-		(pts
 			(xy 46.99 102.87) (xy 50.8 102.87)
 		)
 		(stroke
@@ -10068,7 +10048,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 68.58 53.34)
+			(xy 73.66 53.34) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -12186,85 +12166,6 @@
 			(project "dodgeball"
 				(path "/79fd772d-fb51-43da-973a-b6f25c90b26b"
 					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 46.99 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3816f7b6-28a4-4d23-b2d8-6488c937933f")
-		(property "Reference" "#PWR05"
-			(at 46.99 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 46.99 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 46.99 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "429a914c-d64f-4ab9-a1b0-3884247a6e4a")
-		)
-		(instances
-			(project "dodgeball"
-				(path "/79fd772d-fb51-43da-973a-b6f25c90b26b"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -18090,6 +17991,46 @@
 				)
 			)
 		)
+		(property "R1_R" "47000"
+			(at 715.264 102.87 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "C1_uF" "47"
+			(at 712.978 103.632 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "R2_R" "47000"
+			(at 720.852 102.87 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "C2_uF" "10"
+			(at 718.82 103.632 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7704d303-2782-4375-906e-ef93408a211f")
 		)
@@ -18717,92 +18658,6 @@
 				(path "/79fd772d-fb51-43da-973a-b6f25c90b26b"
 					(reference "K11")
 					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DICE:LATCH")
-		(at 59.69 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0ffd939-1df4-4b0b-8705-34799daad0cc")
-		(property "Reference" "U8"
-			(at 59.69 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 59.69 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f59f61b-425f-4197-8931-3c260f88e51b")
-		)
-		(pin "2"
-			(uuid "5b644cb8-82c3-435e-a575-72ca62d4fa80")
-		)
-		(pin "3"
-			(uuid "2ae1491d-4d89-4dcf-9d52-54e6e8f7834c")
-		)
-		(pin "i1"
-			(uuid "befaf70e-da31-4c5d-a8ed-8e19780958a6")
-		)
-		(instances
-			(project "dodgeball"
-				(path "/79fd772d-fb51-43da-973a-b6f25c90b26b"
-					(reference "U8")
-					(unit 1)
 				)
 			)
 		)
@@ -19452,85 +19307,6 @@
 			(project "dodgeball"
 				(path "/79fd772d-fb51-43da-973a-b6f25c90b26b"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 46.99 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df70867d-eb59-4d4b-a809-ee50ceb0cbb8")
-		(property "Reference" "#PWR06"
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 46.99 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 46.99 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fea4adee-5ae7-4ce4-bbee-ce5592d80918")
-		)
-		(instances
-			(project "dodgeball"
-				(path "/79fd772d-fb51-43da-973a-b6f25c90b26b"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -20686,6 +20462,85 @@
 				(path "/79fd772d-fb51-43da-973a-b6f25c90b26b"
 					(reference "N5")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 71.12 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f78af21e-982f-4783-bb0a-79097a19af13")
+		(property "Reference" "#PWR07"
+			(at 71.12 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 71.12 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 71.12 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47cebb5c-663d-47c7-86da-535498d81d3b")
+		)
+		(instances
+			(project "dodgeball"
+				(path "/79fd772d-fb51-43da-973a-b6f25c90b26b"
+					(reference "#PWR07")
+					(unit 1)
 				)
 			)
 		)
